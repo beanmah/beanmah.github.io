@@ -13,7 +13,7 @@ You can also find my articles on my [Google Scholar profile]({{ site.author.goog
 
 1. **DynBrainGNN: Towards Spatio-Temporal Interpretable Graph Neural Network based on Dynamic Brain Connectome for Psychiatric Diagnosis**  
    Kaizhong Zheng<sup>*</sup>, **Bin Ma**<sup>*</sup>, and Badong Chen  
-   International Workshop on Machine Learning in Medical Imaging (**MICCAI workshop**)
+   International Workshop on Machine Learning in Medical Imaging (**MICCAI workshop**)  
    [[paper](https://link.springer.com/chapter/10.1007/978-3-031-45676-3_17)] [[code](https://github.com/beanmah/DynBrainGNN)]
 
 ## Preprints
@@ -25,7 +25,7 @@ You can also find my articles on my [Google Scholar profile]({{ site.author.goog
 
 2. **Protap: A Benchmark for Protein Modeling on Realistic Downstream Applications**  
    Shuo Yan<sup>*</sup>, Yuliang Yan<sup>*</sup>, **Bin Ma**, Chenao Li, Haochun Tang, Jiahua Lu, Minhua Lin, Yuyuan Feng, Hui Xiong, Enyan Dai  
-   The Thirty-ninth Annual Conference on Neural Information Processing Systems Datasets and Benchmarks Track (**NeurIPS 2025**)
+   The Thirty-ninth Annual Conference on Neural Information Processing Systems Datasets and Benchmarks Track (**NeurIPS 2025**)  
    [[paper](https://arxiv.org/pdf/2506.02052)] [[code](https://github.com/Trust-App-AI-Lab/protap)]
 
 1. **PatentAgent: Intelligent Agent for Automated Pharmaceutical Patent Analysis**  
