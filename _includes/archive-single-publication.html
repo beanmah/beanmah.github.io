@@ -12,9 +12,6 @@
     {% if post.venue %}
       <p class="archive__item-venue" style="margin: 0.1rem 0;">
           {{ post.venue }}
-          {% if post.date %}
-            , {{ post.date | date: "%Y" }}
-          {% endif %}
       </p>
     {% endif %}
 
