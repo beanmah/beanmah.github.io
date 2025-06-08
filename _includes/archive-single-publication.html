@@ -1,24 +1,26 @@
-<div class="{{ include.type | default: 'list' }}__item">
+<li style="margin-bottom: 1.5rem; line-height: 1.5;">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 
-    <h3 class="archive__item-title" itemprop="headline">
+    <h3 class="archive__item-title" itemprop="headline" style="margin-bottom: 0.2rem;">
       {{ post.title }}
     </h3>
 
     {% if post.authors %}
-      <p class="archive__item-authors" style="margin: 0.25rem 0;">{{ post.authors }}</p>
+      {% comment %} 关键修复：使用 markdownify 过滤器来渲染 HTML 标签 {% endcomment %}
+      <p class="archive__item-authors" style="margin-bottom: 0.2rem;">{{ post.authors | markdownify | remove: "<p>" | remove: "</p>" }}</p>
     {% endif %}
 
     {% if post.venue %}
-      <p class="archive__item-venue" style="margin: 0.25rem 0;">
-          {{ post.venue }}
+      <p class="archive__item-venue" style="margin-bottom: 0.3rem;">
+          <i>{{ post.venue }}
           {% if post.date %}
             , {{ post.date | date: "%Y" }}
           {% endif %}
+          </i>
       </p>
     {% endif %}
 
-    <p class="archive__item-links" style="margin: 0.25rem 0;">
+    <p class="archive__item-links">
       {% if post.paperurl %}
         <a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">[paper]</a>
       {% endif %}
@@ -34,4 +36,4 @@
     </p>
     
   </article>
-</div>
+</li>
