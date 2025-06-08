@@ -6,11 +6,11 @@
     </h3>
 
     {% if post.authors %}
-      <p class="archive__item-authors" style="margin: 0.25rem 0;">{{ post.authors | markdownify }}</p>
+      <p class="archive__item-authors">{{ post.authors | markdownify }}</p>
     {% endif %}
 
     {% if post.venue %}
-      <p class="archive__item-venue" style="margin: 0.25rem 0;">
+      <p class="archive__item-venue">
           {{ post.venue }}
           {% if post.date %}
             , {{ post.date | date: "%Y" }}
@@ -18,7 +18,7 @@
       </p>
     {% endif %}
 
-    <p class="archive__item-links" style="margin: 0.25rem 0;">
+    <p class="archive__item-links">
       {% if post.paperurl %}
         <a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">[paper]</a>
       {% endif %}
