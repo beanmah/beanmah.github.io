@@ -12,7 +12,7 @@ You can also find my articles on my [Google Scholar profile]({{ site.author.goog
 ## Conference Papers
 
 1. **DynBrainGNN: Towards Spatio-Temporal Interpretable Graph Neural Network based on Dynamic Brain Connectome for Psychiatric Diagnosis**  
-   Kaizhong Zheng<sup>*</sup>, **Bin Ma**<sup>*</sup>, and Badong Chen  
+   Kaizhong Zheng<sup>*</sup>, **Bin Ma**<sup>*</sup>, Badong Chen  
    International Workshop on Machine Learning in Medical Imaging (**MICCAI workshop**)  
    [[paper](https://link.springer.com/chapter/10.1007/978-3-031-45676-3_17)] [[code](https://github.com/beanmah/DynBrainGNN)]
 
@@ -29,7 +29,7 @@ You can also find my articles on my [Google Scholar profile]({{ site.author.goog
    [[paper](https://arxiv.org/pdf/2506.02052)] [[code](https://github.com/Trust-App-AI-Lab/protap)]
 
 3. **PatentAgent: Intelligent Agent for Automated Pharmaceutical Patent Analysis**  
-   Xin Wang, Yifan Zhang, Xiaojing Zhang, Longhui Yu, Xinna Lin, Jindong Jiang, **Bin Ma**, and Kaicheng Yu  
+   Xin Wang<sup>*</sup>, Yifan Zhang<sup>*</sup>, Xiaojing Zhang, Longhui Yu, Xinna Lin, Jindong Jiang, **Bin Ma**, Kaicheng Yu  
    arXiv:2410.21312  
    [[paper](https://arxiv.org/pdf/2410.21312)]
 
