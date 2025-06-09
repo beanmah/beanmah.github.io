@@ -18,7 +18,7 @@ You can also find my articles on my [Google Scholar profile]({{ site.author.goog
 
 ## Preprints
 
-3. **How Explanations Leak the Decision Logic: Stealing Graph Neural Networks via Explanation Alignment**  
+1. **How Explanations Leak the Decision Logic: Stealing Graph Neural Networks via Explanation Alignment**  
    **Bin Ma**, Yuyuan Feng, Minhua Lin, Enyan Dai  
    The Thirty-ninth Annual Conference on Neural Information Processing Systems (**NeurIPS 2025**)  
    [[paper](https://arxiv.org/pdf/2506.03087)] [[code](https://github.com/beanmah/EGSteal)]
@@ -28,7 +28,7 @@ You can also find my articles on my [Google Scholar profile]({{ site.author.goog
    The Thirty-ninth Annual Conference on Neural Information Processing Systems Datasets and Benchmarks Track (**NeurIPS 2025**)  
    [[paper](https://arxiv.org/pdf/2506.02052)] [[code](https://github.com/Trust-App-AI-Lab/protap)]
 
-1. **PatentAgent: Intelligent Agent for Automated Pharmaceutical Patent Analysis**  
+3. **PatentAgent: Intelligent Agent for Automated Pharmaceutical Patent Analysis**  
    Xin Wang, Yifan Zhang, Xiaojing Zhang, Longhui Yu, Xinna Lin, Jindong Jiang, **Bin Ma**, and Kaicheng Yu  
    arXiv:2410.21312  
    [[paper](https://arxiv.org/pdf/2410.21312)]
