@@ -28,6 +28,5 @@ You can also find my articles on my [Google Scholar profile]({{ site.author.goog
 
 3. **PatentAgent: Intelligent Agent for Automated Pharmaceutical Patent Analysis**  
    Xin Wang<sup>*</sup>, Yifan Zhang<sup>*</sup>, Xiaojing Zhang, Longhui Yu, Xinna Lin, Jindong Jiang, **Bin Ma**, Kaicheng Yu  
-   arXiv:2410.21312  
    [[paper](https://arxiv.org/pdf/2410.21312)]
 
